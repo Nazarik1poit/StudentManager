@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentManager.Program" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAEAAEAAAAIAAAAAAAAABgAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentManager.MongoDbContext" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <AssociationLine Name="Program" Type="StudentManager.Program">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.873" Y="0.118" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>Modules\MongoDbContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StudentRepository" />
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentManager.Modules.Student" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAUAAAAAAwAAAAMAAAAQAAAAEAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>Modules\Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentManager.Modules.StudentRepository" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAAAAAAAAAAIAMAAAEAAAABACAAAAAAAAAA=</HashCode>
+      <FileName>Modules\StudentRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
